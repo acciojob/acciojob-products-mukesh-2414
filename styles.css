@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+#dsa{
+	background-color:#890123;
+	border:1px solid black;
+	width:50%;
+}
+#mern{
+	background-color:#f37f1b;
+	border:1px solid black;
+	width:30%;
+	height:75px;
+}
+#row1{
+	display:flex;
+	justify-content:space-between;
+	
+}
+#acciojob{
+	background-color:#626ee3;
+	border:1px solid black;
+	width:75%;
+	margin-top:24px;
+	margin-bottom:24px;
+}
+#row2{
+	justify-content:center;
+	display:flex;
+	align-items:center;
+	text-align:center;
+}
+#buisness-analytics{
+	background-color:#12967e;
+	border:1px solid black;
+	width:40%;
+	margin-left:10px;
+}
+#spring{
+	background-color:#f21a3f;
+	border:1px solid black;
+	width:50%;
+	height:75px;
+}
+#row3{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.product{
+	color:white;
+	
+}
