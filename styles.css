@@ -3,17 +3,20 @@
 	background-color:#890123;
 	border:1px solid black;
 	width:50%;
+	display: grid;
+  place-items: center; 
 }
 #mern{
 	background-color:#f37f1b;
 	border:1px solid black;
 	width:30%;
 	height:75px;
+	display: grid;
+  place-items: center; 
 }
 #row1{
 	display:flex;
 	justify-content:space-between;
-	
 }
 #acciojob{
 	background-color:#626ee3;
@@ -21,11 +24,11 @@
 	width:75%;
 	margin-top:24px;
 	margin-bottom:24px;
+	
 }
 #row2{
-	justify-content:center;
-	display:flex;
-	align-items:center;
+	display: grid;
+  place-items: center; 
 	text-align:center;
 }
 #buisness-analytics{
@@ -33,12 +36,16 @@
 	border:1px solid black;
 	width:40%;
 	margin-left:10px;
+	display: grid;
+  place-items: center; 
 }
 #spring{
 	background-color:#f21a3f;
 	border:1px solid black;
 	width:50%;
 	height:75px;
+	display: grid;
+  place-items: center; 
 }
 #row3{
 	display:flex;
