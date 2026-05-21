@@ -1,13 +1,18 @@
+*{
+	box-sizing:border-box;
+}
 #wrapper {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 100%; /* or any container width */
+  flex-wrap:nowrap;
+	width: 100%; 
 }
 #row1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+	width:auto;
 }
 
 #dsa {
@@ -16,7 +21,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75px; /* optional, or auto */
   background-color: #890123;
   border: 1px solid black;
   color: white;
@@ -46,7 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75px; /* height can be consistent */
+flex-grow:0;
 }
 
 #row3 {
@@ -57,17 +61,17 @@
 
 #buisness-analytics {
   width: 40%;
-  background-color: #12967e;
+  background-color:rgb(18,150,126);
   border: 1px solid black;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75px; /* optional, or auto */
+  
 }
 
 #spring {
-  flex: 1; /* take remaining horizontal space */
+  flex: 1; 
   height: 75px;
   background-color: #f21a3f;
   border: 1px solid black;
