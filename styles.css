@@ -1,60 +1,78 @@
-/*  your css code here. If applicable */
-#dsa{
-	background-color:#890123;
-	border:1px solid black;
-	width:50%;
-	display: flex; 
-	justify-content: center; 
-	align-items: center;
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%; /* or any container width */
 }
-#mern{
-	background-color:#f37f1b;
-	border:1px solid black;
-	width:30%;
-	height:75px;
-	display: flex; 
-	justify-content: center; 
-	align-items: center;
+#row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#row1{
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
+
+#dsa {
+  width: 50%;
+  /* center text inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px; /* optional, or auto */
+  background-color: #890123;
+  border: 1px solid black;
+  color: white;
 }
-#acciojob{
-	background-color:#626ee3;
-	border:1px solid black;
-	width:75%;
-	margin-top:24px;
-	margin-bottom:24px;
+
+#mern {
+  width: 30%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f37f1b;
+  border: 1px solid black;
+  color: white;
 }
-#row2{
-	display: flex; 
-	justify-content: center; 
-	align-items: center;
+
+#row2 {
+  display: flex;
+  justify-content: center;
 }
-#buisness-analytics{
-	background-color:#12967e;
-	border:1px solid black;
-	width:40%;
-	display: flex; 
-	justify-content: center; 
-	align-items: center;
+
+#acciojob {
+  width: 75%;
+  background-color: #626ee3;
+  border: 1px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px; /* height can be consistent */
 }
-#spring{
-	background-color:#f21a3f;
-	border:1px solid black;
-	width:50%;
-	height:75px;
-	display: flex; 
-	justify-content: center; 
-	align-items: center;
+
+#row3 {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
 }
-#row3{
-	display:flex;
-	align-items:flex-end;
-	gap:10px;
+
+#buisness-analytics {
+  width: 40%;
+  background-color: #12967e;
+  border: 1px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px; /* optional, or auto */
 }
-.product{
-	color:white;
+
+#spring {
+  flex: 1; /* take remaining horizontal space */
+  height: 75px;
+  background-color: #f21a3f;
+  border: 1px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
