@@ -1,32 +1,28 @@
-*{
-	box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
+
 #wrapper {
   display: flex;
-  flex-direction: column;
-  gap: 24px;
-  flex-wrap:nowrap;
-	width: 100%; 
-}
-#row1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-	width:auto;
+  flex-wrap: wrap;
+  gap: 24px 0; /* vertical gap only */
+  width: 100%;
 }
 
 #dsa {
+  order: 1;
   width: 50%;
-  /* center text inside */
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #890123;
   border: 1px solid black;
   color: white;
+  height: 75px;
 }
 
 #mern {
+  order: 2;
   width: 30%;
   height: 75px;
   display: flex;
@@ -35,48 +31,41 @@
   background-color: #f37f1b;
   border: 1px solid black;
   color: white;
+  margin-left: auto; 
 }
-
-#row2 {
+#acciojob {
+  order: 3;
+  width: 75%;
+  margin: 0 auto; /* center horizontally */
   display: flex;
   justify-content: center;
-}
-
-#acciojob {
-  width: 75%;
+  align-items: center;
   background-color: #626ee3;
   border: 1px solid black;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-flex-grow:0;
-}
-
-#row3 {
-  display: flex;
-  gap: 10px;
-  align-items: flex-end;
+  height: auto;
 }
 
 #buisness-analytics {
+  order: 4;
   width: 40%;
-  background-color:rgb(18,150,126);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* hug bottom */
+  background-color: rgb(18,150,126);
   border: 1px solid black;
   color: white;
+  height: 75px;
+}
+#spring {
+  order: 5;
+  flex: 1; /* take remaining space */
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-}
-
-#spring {
-  flex: 1; 
-  height: 75px;
   background-color: #f21a3f;
   border: 1px solid black;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 10px; 
 }
