@@ -5,6 +5,7 @@
 #wrapper {
   display: flex;
   flex-wrap: wrap;
+	justify-content:space-between;
   gap: 24px 0; /* vertical gap only */
   width: 100%;
 }
@@ -16,7 +17,7 @@
   justify-content: center;
   align-items: center;
   background-color: #890123;
-  border: 1px solid black;
+  
   color: white;
   height: 75px;
 }
@@ -29,7 +30,7 @@
   justify-content: center;
   align-items: center;
   background-color: #f37f1b;
-  border: 1px solid black;
+ 
   color: white;
   margin-left: auto; 
 }
@@ -38,12 +39,15 @@
   width: 75%;
   margin: 0 auto; /* center horizontally */
   display: flex;
-  justify-content: center;
+  justify-self: center;
   align-items: center;
+	margin-top:24px;
+	margin-bottom:24px;
+	justify-content:center;
   background-color: #626ee3;
-  border: 1px solid black;
+  
   color: white;
-  height: auto;
+  height: 30%;
 }
 
 #buisness-analytics {
@@ -51,9 +55,8 @@
   width: 40%;
   display: flex;
   justify-content: center;
-  align-items: flex-end; /* hug bottom */
+  align-items: center; /* hug bottom */
   background-color: rgb(18,150,126);
-  border: 1px solid black;
   color: white;
   height: 75px;
 }
@@ -65,7 +68,11 @@
   justify-content: center;
   align-items: center;
   background-color: #f21a3f;
-  border: 1px solid black;
+  
   color: white;
   margin-left: 10px; 
+}
+.product{
+	border: 1px solid black;
+	
 }
